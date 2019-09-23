@@ -3,7 +3,7 @@ import  './App.css';
 import io from "socket.io-client";
 import MessageList from '../component/MessageList';
 import MessageForm from '../component/MessageForm';
-const socket = io('http://localhost:3000/');
+const socket = io('http://localhost:3001/');
 class App extends Component {
 
   constructor(props) {
