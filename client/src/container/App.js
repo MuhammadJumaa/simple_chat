@@ -78,7 +78,7 @@ class App extends Component {
     return (
 
       <div className={"app"}>
-        <div className={"heading"}>Fuck Yeah</div>
+        <div className={"heading"}>Working Yeah</div>
         <hr />
         <MessageList messagelist={this.state.messages} />
         <MessageForm onMessageSubmit={this.messageSend} />
